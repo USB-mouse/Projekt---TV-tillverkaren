@@ -5,11 +5,11 @@ body{
     margin: auto;
 }
 .headercontainer{
-    background-color: #00137f;
+    background-color: #000f67;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
-    padding: 0.3rem;
+    padding: 0.4rem;
 }
 nav{
     background-color: black;
@@ -17,11 +17,15 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0.2rem;
 }
 .links{
     display: flex;
     flex-direction: row;
    align-items: center;
    gap: 0.5rem;
-   yo
+}
+
+header img{
+    max-width: 100%;
 }
