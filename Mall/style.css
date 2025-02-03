@@ -4,6 +4,11 @@
 body{
     margin: auto;
 }
+
+:root {
+    --body-background-color: #0c2425;
+}
+
 .headercontainer{
     background-color: #000f67;
     color: whitesmoke;
@@ -26,6 +31,44 @@ nav{
    gap: 0.5rem;
 }
 
-header img{
-    max-width: 100%;
+.storbildtext{
+    background-image: url(applications-7025904_1280.jpg);
+    min-height: 45rem;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.storbildtext div{
+    color: white;
+    background-color: rgba(44, 42, 42, 0.26);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 3rem;
+    padding: 1rem;
+   
+}
+.box{
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.01rem;
+    width: 15rem;
+    height: 20rem;
+}
+.övre img{
+    max-width: 14.9rem;
+    max-height: 10rem;
+    
+}
+.övre{
+    display: flex;
+    justify-content: center;
 }
