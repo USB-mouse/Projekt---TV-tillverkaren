@@ -3,14 +3,17 @@
 }
 body{
     margin: auto;
+    font-family: "Liter", serif;
 }
 
 :root {
-    --body-background-color: #0c2425;
+    --blue-background-color: #000f67;
+    --extrablue-background-color: #2d75c7;
+    --h2howmuchleft-margin-left: 1rem;
 }
 
 .headercontainer{
-    background-color: #000f67;
+    background-color: var(--blue-background-color);
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -37,16 +40,30 @@ nav{
     background-position: center;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .storbildtext div{
     color: white;
-    background-color: rgba(44, 42, 42, 0.26);
     text-align: center;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 13rem;
+    
 }
-.boxes{
+ 
+.storbildtext a{
+    background-color: var(--extrablue-background-color);
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    
+}
+.storbildtext a:hover{
+background-color: var(--blue-background-color);
+ }
+h2{
+    margin-left: var(--h2howmuchleft-margin-left)
+}
+
+ .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -61,14 +78,20 @@ nav{
     border-color: black;
     border-width: 0.01rem;
     width: 15rem;
-    height: 20rem;
+    height: 15rem;
+}
+
+.övre{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 244, 249);
 }
 .övre img{
     max-width: 14.9rem;
     max-height: 10rem;
     
+    
 }
-.övre{
-    display: flex;
-    justify-content: center;
+.nedre{
+    margin-left: 0.3rem;
 }
