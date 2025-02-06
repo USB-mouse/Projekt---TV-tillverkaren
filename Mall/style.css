@@ -157,7 +157,9 @@ footer a {
     border-radius: 4rem;
 
 }
-
+.bildtextbottom a:hover {
+    background-color: var(--blue-background-color);
+}
 .description{
     display: flex;
     justify-content: space-around;
