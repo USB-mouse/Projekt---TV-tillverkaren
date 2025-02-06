@@ -136,3 +136,36 @@ footer{
 footer a {
     color: white;
 }
+
+.köpbildochtext{
+    display: flex;
+    justify-content: space-around;
+}
+.köpbildochtext img {
+    max-width: 40rem;
+    max-height: 40rem;
+    align-items: center;
+}
+.bildtextbottom a {
+    color: white;
+    text-decoration: none;
+    background-color: var(--extrablue-background-color);
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 4rem;
+
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+.descriptionh5width{
+    max-width: 25rem;
+}
+.description h5{
+border-style: solid;
+padding: 0.5rem;
+}
