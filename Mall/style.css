@@ -11,8 +11,12 @@ body{
     --extrablue-background-color: #2d75c7;
     --h2howmuchleft-margin-left: 1rem;
     --h6storbildtext-margin: -1rem;
+    --boxessize-width: 15rem;
+    --boxessize-height: 17.5rem;
 }
-
+a{
+    text-decoration: none;
+}
 .headercontainer{
     background-color: var(--blue-background-color);
     color: whitesmoke;
@@ -28,6 +32,17 @@ nav{
     justify-content: space-between;
     padding: 0.2rem;
 }
+nav a{
+    color: white;
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav h4{
+    margin-left: 1rem;
+}
 .links{
     display: flex;
     flex-direction: row;
@@ -38,8 +53,8 @@ nav{
 .storbildtext{
     background-image: url(applications-7025904_1280.jpg);
     min-height: 45rem;
-    background-position: center;
     display: flex;
+    background-position: center;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -56,7 +71,6 @@ nav{
  
 .storbildtext a{
     background-color: var(--extrablue-background-color);
-    text-decoration: none;
     color: white;
     padding: 1rem;
     
@@ -82,8 +96,8 @@ h2{
     border-style: solid;
     border-color: black;
     border-width: 0.01rem;
-    width: 15rem;
-    height: 15rem;
+    width: var(--boxessize-width);
+    height: var(--boxessize-height);
 }
 
 .övre{
@@ -94,16 +108,31 @@ h2{
 .övre img{
     max-width: 14.9rem;
     max-height: 10rem;
-    
-    
 }
 .nedre{
     margin-left: 0.3rem;
 }
+.nedre a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5.5rem;
+    background-color: var(--extrablue-background-color);
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.3rem;
 
+}
+.nedre a:hover{
+    background-color: var(--blue-background-color);
+     }
 footer{
         display: flex;
         justify-content: space-evenly;
         background-color: black;
         color: white;
+        margin-top: 4rem;
+}
+footer a {
+    color: white;
 }
