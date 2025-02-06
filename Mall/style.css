@@ -21,7 +21,7 @@ a{
     background-color: var(--blue-background-color);
     color: whitesmoke;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0.4rem;
 }
 nav{
@@ -171,3 +171,20 @@ footer a {
 border-style: solid;
 padding: 0.5rem;
 }
+@media (max-width: 528px)
+    {
+        header,main,footer{
+        min-width: 32.6rem;
+    }
+   
+}
+@media (max-width: 960px)
+{
+    .description{
+        flex-direction: column;
+    }
+    .descriptionh5width{
+        max-width: 15rem;
+    }
+}
+    
